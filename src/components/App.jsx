@@ -36,16 +36,72 @@ import './App.css';
 
 // src/App.jsx
 
-import { Product } from './Product';
+// import { Product } from './Product';
+// import { BookList } from './Product';
+// import { Card } from './Product';
+import { Alert } from './Alert
+
+// const favouriteBooks = [
+//   { id: 'id-1', name: 'JS for beginners' },
+//   { id: 'id-2', name: 'React basics' },
+//   { id: 'id-3', name: 'React Router overview' },
+// ];
 
 export default function App() {
-  return (
-    <div>
-      <h1>Best selling</h1>
+  // return (
+  //   <div>
+  //     <h1>Best selling</h1>
 
-      <Product />
-      <Product />
-      <Product />
-    </div>
+  //     <Product
+  //       name="Tacos With Lime"
+  //       imgUrl="https://images.pexels.com/photos/461198/pexels-photo-461198.jpeg?dpr=2&h=480&w=640"
+  //       price={10.99}
+  //     />
+  //     <Product
+  //       name="Fries and Burger"
+  //       imgUrl="https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg?dpr=2&h=480&w=640"
+  //       price={14.29}
+  //     />
+  //     <Product />
+  //   </div>
+  // );
+
+  // return (
+  //   <>
+  //     <h1>Books of the week</h1>
+  //     <BookList books={favouriteBooks} />
+  //   </>
+  // );
+
+  // return (
+  //   <>
+  //     {/* <Card text="Message as a text prop" /> */}
+  //     {/* <Card>Text between opening and closing tag</Card> */}
+  //     <Card>
+  //       <h1>Card title</h1>
+  //       <p>Text between opening and closing tag</p>
+  //     </Card>
+  //     <Card>
+  //       <h1>Card title 2</h1>
+  //       <p>Text between opening and closing tag</p>
+  //     </Card>
+  //   </>
+  // );
+
+  return (
+    <>
+      <Alert variant="info">
+        Would you like to browse our recommended products?
+      </Alert>
+      <Alert variant="error">
+        There was an error during your last transaction
+      </Alert>
+      <Alert variant="success">
+        Payment received, thank you for your purchase
+      </Alert>
+      <Alert variant="warning">
+        Please update your profile contact information
+      </Alert>
+    </>
   );
 }
