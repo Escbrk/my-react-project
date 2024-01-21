@@ -39,7 +39,7 @@ import './App.css';
 // import { Product } from './Product';
 // import { BookList } from './Product';
 // import { Card } from './Product';
-import { Alert } from './Alert
+import { Alert } from './Alert';
 
 // const favouriteBooks = [
 //   { id: 'id-1', name: 'JS for beginners' },
