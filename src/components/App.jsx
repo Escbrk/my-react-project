@@ -41,11 +41,14 @@ import './App.css';
 // import { Card } from './Product';
 import { Alert } from './Alert';
 
+
 // const favouriteBooks = [
 //   { id: 'id-1', name: 'JS for beginners' },
 //   { id: 'id-2', name: 'React basics' },
 //   { id: 'id-3', name: 'React Router overview' },
 // ];
+
+
 
 export default function App() {
   // return (
@@ -93,13 +96,13 @@ export default function App() {
       <Alert variant="info">
         Would you like to browse our recommended products?
       </Alert>
-      <Alert variant="error">
+      <Alert variant="error" outlined>
         There was an error during your last transaction
       </Alert>
-      <Alert variant="success">
+      <Alert variant="success" elevated>
         Payment received, thank you for your purchase
       </Alert>
-      <Alert variant="warning">
+      <Alert variant="warning" outlined elevated>
         Please update your profile contact information
       </Alert>
     </>
